@@ -1,2 +1,4 @@
 # grushaland - open source messaging app
-GrushaLand is a web messanging app 
+GrushaLand is a web messaging application, developed for easy and secure communication. It uses open-source technology, helping users be always connected while keeping private and safe all the information. It comes with a lot of features, such as messaging in real time, sharing files, or chatting in groups, in a very friendly and simple design.
+
+One of the biggest pluses with GrushaLand is its open nature: this provides an opportunity for developers to make it better. If a user wants to, he or she can download, make changes, and even tailor the application to fit very specific needs—personal use or organizational. This way, GrushaLand emphasizes end-to-end encryption—meaning that all conversations in the app are safe, private, and protected against any form of eavesdropping.
