@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <title>theBabyland</title>
+      <style>
+         body {
+         font-family: Arial, sans-serif;
+         background-color: #1F1F1F;
+         margin: 0;
+         padding: 0;
+         }
+         @font-face {
+         font-family: 'ABC Ginto Nord Unlicensed Trial Black';
+         font-style: normal;
+         font-weight: normal;
+         src: local('ABC Ginto Nord Unlicensed Trial Black'), url('abcgintonordblack') format('woff');
+         }
+         @font-face {
+         font-family: 'gg sans Bold';
+         font-style: normal;
+         font-weight: normal;
+         src: local('gg sans Bold'), url('gg sans Bold.woff') format('woff');
+         }
+         @font-face {
+         font-family: 'gg sans Normal Regular';
+         font-style: normal;
+         font-weight: normal;
+         src: local('gg sans Normal Regular'), url('gg sans Regular.woff') format('woff');
+         }
+         @font-face {
+         font-family: 'gg sans Medium Regular';
+         font-style: normal;
+         font-weight: normal;
+         src: local('gg sans Medium Regular'), url('gg sans Medium.woff') format('woff');
+         }
+         @font-face {
+         font-family: 'gg sans SemiBold Regular';
+         font-style: normal;
+         font-weight: normal;
+         src: local('gg sans SemiBold Regular'), url('gg sans Semibold.woff') format('woff');
+         }
+         .logo {
+         width: 200px;
+         height: auto;
+         margin-left: 20px;
+         margin-top: 20px;
+         margin-bottom: 15px;
+         }
+         h1 {
+         font-family: "Montserrat", sans-serif;
+         font-weight: bold;
+         font-size: 2.5rem;
+         color: #b8fca4;
+         }
+         .text {
+         text-align: center;
+         }
+         .horizontal-line {
+         width: 100%;
+         height: 2px;
+         background-color: #b8fca4;
+         border: none;
+         margin: 0;
+         }
+         .mrfresh {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         }
+      </style>
+      <script>
+         function getRandomPhrase() {
+             const phrases = ["shit on!", "404 blud", "sadly 404"];
+             const randomIndex = Math.floor(Math.random() * phrases.length);
+             return phrases[randomIndex];
+         }
+
+         window.onload = function() {
+             document.getElementById("randomText").innerText = getRandomPhrase();
+         };
+      </script>
+   </head>
+   <body>
+      <a href="/">
+        <img class="logo" src="/glogo.png" alt="Logo">
+      </a>
+      <hr class="horizontal-line">
+      <h1 id="randomText" class="text"></h1>
+      <img class="mrfresh" src="/mr-fresh.gif" alt="mrfresh">
+   </body>
+</html>

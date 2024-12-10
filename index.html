@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <title>theBabyland</title>
+      <style>
+         body {
+         font-family: Arial, sans-serif;
+         background-image: url("space.jpg");
+         background-size: cover; /* Makes sure the image covers the entire body */
+         background-position: center; /* Centers the image */
+         background-repeat: no-repeat; /* Prevents the image from repeating */
+         width: 100%; /* Ensures the body takes up the full width */
+         height: 100vh; /* Ensures the body takes up the full height of the viewport */
+         margin: 0;
+         padding: 0;
+         /* background-color: #1F1F1F; */
+         }
+         @font-face {
+         font-family: 'ABC Ginto Nord Unlicensed Trial Black';
+         font-style: normal;
+         font-weight: normal;
+         src: local('ABC Ginto Nord Unlicensed Trial Black'), url('abcgintonordblack') format('woff');
+         }
+         @font-face {
+         font-family: 'gg sans Bold';
+         font-style: normal;
+         font-weight: normal;
+         src: local('gg sans Bold'), url('gg sans Bold.woff') format('woff');
+         }
+         @font-face {
+         font-family: 'gg sans Normal Regular';
+         font-style: normal;
+         font-weight: normal;
+         src: local('gg sans Normal Regular'), url('gg sans Regular.woff') format('woff');
+         }
+         @font-face {
+         font-family: 'gg sans Medium Regular';
+         font-style: normal;
+         font-weight: normal;
+         src: local('gg sans Medium Regular'), url('gg sans Medium.woff') format('woff');
+         }
+         @font-face {
+         font-family: 'gg sans SemiBold Regular';
+         font-style: normal;
+         font-weight: normal;
+         src: local('gg sans SemiBold Regular'), url('gg sans Semibold.woff') format('woff');
+         }
+         .logo {
+         width: 200px; /* Adjust logo size */
+         height: auto; /* Maintain aspect ratio */
+         margin-left: 20px; /* Space between logo and next images */
+         margin-top: 20px;
+         margin-bottom: 15px;
+         }
+         h1 {
+         font-family: "Montserrat", sans-serif;
+         font-weight: bold;
+         font-size: 2.5rem;
+         color: #b8fca4;
+         margin-left: 20px;
+         margin-top: 20px;
+         position: fixed;
+         top: 150px;
+         margin-bottom: 20px;
+         }
+         h2 {
+         font-family: "Montserrat", sans-serif;
+         font-size: 1.3rem;
+         color: #b8fca4;
+         margin-left: 20px;
+         margin-top: 100px;
+         position: fixed;
+         top: 150px;
+         }
+         h3 {
+         font-family: "Montserrat", sans-serif;
+         font-size: 1.3rem;
+         color: #b8fca4;
+         margin-left: 20px;
+         margin-top: 100px;
+         position: fixed;
+         }
+         .horizontal-line {
+         width: 100%;
+         height: 2px;
+         background-color: #b8fca4;
+         border: none;
+         margin: 0;
+         }
+         .start-using-button, .build-button {
+         font-family: 'gg sans Bold';
+         font-size: 2rem;
+         border-radius: 50px;
+         outline: none;
+         width: 250px;
+         height: 50px;
+         cursor: pointer;
+         font-weight: bold;
+         top: 500px;
+         position: fixed;
+         }
+         .start-using-button {
+         background-color: #b8fca4;
+         border-color: #b8fca4;
+         margin-left: 20px;
+         }
+         .build-button {
+         background-color: white;
+         border:none;
+         left: 300px;
+         }
+         .client {
+         top: 250px;
+         left: 700px;
+         position: fixed;
+         height: 300px;
+         width: auto;
+         box-shadow: rgba(184, 252, 164, 0.4) 0px 5px, rgba(184, 252, 164, 0.3) 0px 10px, rgba(184, 252, 164, 0.2) 0px 15px, rgba(184, 252, 164, 0.1) 0px 20px, rgba(184, 252, 164, 0.05) 0px 25px;
+         }
+         .text2 {
+         top: 170px;
+         }
+         .text3 {
+         top: 190px;
+         }
+      </style>
+   </head>
+   <body>
+      <img class="logo" src="/glogo.png" alt="Logo">
+      <hr class="horizontal-line">
+      <h1 class="ABC Ginto Nord Unlicensed Trial Black">Creating fun group chats starts here, it's that simple</h1>
+      <h2 class="text1">a new open source messaging client.</h2>
+      <h2 class="text2">babyland is great for playing games, chilling with friends</h2>
+      <h3 class="text3">or even building a worldwide community.</h3>
+      <a href="/app">
+      <button class="start-using-button" type="button">Start using</button>
+      </a>
+      <a href="/dev/build">
+      <button class="build-button" type="button">Build my own</button>
+      </a>
+      <img class="client" src="/chat.png" alt="example">
+   </body>
+</html>
