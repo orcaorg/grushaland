@@ -1,2 +1,1 @@
-# grushaland
-open source messaging app
+# grushaland - open source messaging app
